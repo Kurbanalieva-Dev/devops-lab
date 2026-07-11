@@ -12,7 +12,7 @@ pipeline {
                 echo 'Запуск нашего Bash-скрипта...'
                 // Запуск скрипта, который лежит в репозитории
                 sh 'chmod +x ./script.sh'
-                sh './script.sh'
+                sh './jenkins/script.sh'
             }
         }
     }
