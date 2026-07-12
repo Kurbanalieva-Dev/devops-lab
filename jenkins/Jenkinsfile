@@ -1,4 +1,4 @@
-pipeline {
+[8:02 PM, 7/11/2026] Unity: pipeline {
     agent any
 
     stages {
@@ -12,7 +12,7 @@ pipeline {
                 echo 'Запуск нашего Bash-скрипта...'
                 // Запуск скрипта, который лежит в репозитории
                 sh 'chmod +x ./script.sh'
-                sh './jenkins/script.sh'
+                sh 'chmod +x ./jenkins/script.sh && ./jenkins/script.sh'
             }
         }
     }
