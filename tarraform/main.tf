@@ -1,5 +1,3 @@
-# main.tf
-
 # 1. Указываем, где мы работаем
 provider "aws" {
   region = "eu-north-1"
