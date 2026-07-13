@@ -1,0 +1,13 @@
+# Скрываем секреты
+*.env
+*.pem
+.aws/credentials
+
+# Скрываем Terraform-мусор
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Скрываем системные файлы
+.DS_Store
