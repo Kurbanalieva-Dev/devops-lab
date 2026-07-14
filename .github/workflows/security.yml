@@ -14,4 +14,4 @@ jobs:
         uses: bridgecrewio/checkov-action@master
         with:
           directory: .
-          framework: terraform ss
+          framework: terraform 
